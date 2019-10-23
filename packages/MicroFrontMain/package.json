@@ -1,0 +1,24 @@
+{
+    "name": "flute-main",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js",
+        "dev": "rollup -c --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "rollup": "^1.25.1",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-typescript2": "^0.24.3",
+        "tslib": "^1.10.0",
+        "typescript": "^3.6.4"
+    },
+    "dependencies": {
+        "flute-core": "^1.0.0"
+    }
+}

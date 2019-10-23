@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "lib": ["es2018", "dom"],
+        "target": "es5",
+        "module": "esnext",
+        "declaration": true,
+        "declarationMap": false,
+        "sourceMap": true,
+        "strict": true,
+        "composite": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true
+    }
+}
